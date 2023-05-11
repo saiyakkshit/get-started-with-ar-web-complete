@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <title>WebXR App</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  </head>
+
+  <body>
+
+    <script type="module">
+      // Import the functions you need from the SDKs you need
+      import { initializeApp } from "https://www.gstatic.com/firebasejs/9.21.0/firebase-app.js";
+      import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.21.0/firebase-analytics.js";
+      // TODO: Add SDKs for Firebase products that you want to use
+      // https://firebase.google.com/docs/web/setup#available-libraries
+    
+      // Your web app's Firebase configuration
+      // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+      const firebaseConfig = {
+        apiKey: "AIzaSyAfjRT5AlYfh2wZtEQ3Km37yScn8iXnAuQ",
+        authDomain: "webarvsar.firebaseapp.com",
+        databaseURL: "https://webarvsar-default-rtdb.firebaseio.com",
+        projectId: "webarvsar",
+        storageBucket: "webarvsar.appspot.com",
+        messagingSenderId: "329252786830",
+        appId: "1:329252786830:web:1efa4a7ca8e74204662fdf",
+        measurementId: "G-JBCC6EE40V"
+      };
+    
+      // Initialize Firebase
+      const app = initializeApp(firebaseConfig);
+      const analytics = getAnalytics(app);
+    </script>
+    <script src="/__/firebase/6.0.1/firebase-app.js"></script>
+    <script src="/__/firebase/6.0.1/firebase-perfomance.js"></script>
+  
+    <!-- Container for XR DOM Overlay elements -->
+    <div id="xr-ui-container"></div>
+
+    <div id="app-root"></div>
+
+  
+  </body>
+</html>
