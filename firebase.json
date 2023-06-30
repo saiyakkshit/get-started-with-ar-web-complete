@@ -1,5 +1,6 @@
 {
   "hosting": {
+    "site": "aronweb",
     "public": "public",
     "ignore": [
       "firebase.json",

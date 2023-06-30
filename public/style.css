@@ -119,6 +119,7 @@ width: 105%;}
     #ffffff 45.62%,
     #ffffff 71.4%
   );
+  margin-bottom: auto;
 }
 .quote-container {
   text-align: center;
@@ -135,8 +136,8 @@ width: 105%;}
   font-weight: 500;
   font-style: italic;
   font-size: 25px;
-  padding: 30px;
-  margin-bottom: 100px;
+  padding: 10px;
+  margin-bottom: 200px;
 }
 .intro-quote a {
   text-decoration: none;
@@ -594,6 +595,7 @@ details[open] .control-icon-expand {
   bottom: 0;
   margin: 5px;
   justify-content: center;
+  padding: auto;
 }
 #footer {
   width: 100vw;
